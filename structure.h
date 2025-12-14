@@ -9,10 +9,10 @@ typedef struct{
 extern Graph *g_graph; //puntero global al grafo actual
 
 //operaciones con grafos
-Graph *create_graph(int n);
-void free_graph(Graph *g);
-int graph_add_edge(Graph *g, int from, int to, int cost);
-void print_graph(const Graph *g);
+Graph *graph_create(int n);
+void   graph_free(Graph *g);
+int    graph_add_edge(Graph *g, int from, int to, int cost);
+void   graph_print(const Graph *g);
 
 #endif 
 

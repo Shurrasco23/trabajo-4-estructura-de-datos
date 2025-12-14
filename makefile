@@ -8,7 +8,7 @@ CFLAGS = -Wall -Wextra -std=c11 -g
 TARGET = pvv
 
 # Archivos fuente
-SRCS   = pvv.c commands.c 
+SRCS   = pvv.c commands.c structure.c
 
 # Archivos objeto (a partir de los .c)
 OBJS   = $(SRCS:.c=.o)
