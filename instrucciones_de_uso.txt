@@ -1,0 +1,13 @@
+
+Para compilar el programa escribir make
+Make clean para eliminar archivos .o
+
+Para usar el programa correctamente debera escribir todas las intrucciones en una unica linea ejemplo:
+
+Para crear nodos y ver si existe ruta. Escribir ./pvv start <numero> read <archivo.txt> 
+
+Para ademas ver el grafo: ./pvv start <numero> read <archivo.txt> graph
+
+Por cada comando escrito se ejecuta pvv exit para evitar fuga de memoria
+
+

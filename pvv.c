@@ -87,6 +87,7 @@ int main(int argc, char *argv[]) {
 
     // Al final de todos los comandos, liberamos memoria por si quedo algo
     pvv_exit();
+    
     return 0;
 }
 

@@ -1,0 +1,10 @@
+A B 10
+A C 14
+B C 18
+B D 20
+C E 22
+D E 16
+D F 25
+E G 19
+F G 17
+A G 40

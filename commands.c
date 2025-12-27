@@ -104,9 +104,10 @@ void pvv_exit(void) {
 
 //implementacion de TSP 
 
-//funcion principal:busca la mejro ruta
+//funcion principal:busca la mejor ruta
 //empiece en A 
 //visite todos los nodos una vez y vuelva al principio
+
 static void tsp_solve(const Graph *g) {
     if (g == NULL) {
         printf("No hay grafo cargado.\n");
@@ -160,15 +161,9 @@ static void tsp_solve(const Graph *g) {
 }
 
 // backtracking
-static void tsp_search(const Graph *g,
-                       int start,
-                       int current,
-                       int depth,
-                       int current_cost,
-                       int *visited,
-                       int *path,
-                       int *best_cost,
-                       int *best_path) {
+static void tsp_search(const Graph *g, int start, int current, int depth, int current_cost, int *visited, int *path,
+                       int *best_cost, int *best_path) {
+    
     int n = g->n;
 
     // Si ya hemos colocado n-1 saltos (depth), path[0..depth] tiene depth+1 nodos

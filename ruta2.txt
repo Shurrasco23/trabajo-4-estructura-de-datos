@@ -1,0 +1,9 @@
+A B 12
+A C 18
+B C 20
+B D 22
+C E 25
+D E 15
+D F 30
+E F 10
+A F 35
